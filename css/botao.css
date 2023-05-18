@@ -1,0 +1,27 @@
+ /*Botão do html*/
+.botao {
+    background-color: rgb(2, 95, 95);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding: 5px 20px;
+    margin-left: 15px;
+    text-transform: uppercase;
+
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+/*Botão criado no JS*/
+.button {
+    background-color: rgb(2, 95, 95);
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    height: 30px;
+    padding: 5px 30px;
+}

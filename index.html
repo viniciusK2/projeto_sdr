@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icone.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/titulo.css">
+    <link rel="stylesheet" href="css/label-textos.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/input-texto.css">
+    <link rel="stylesheet" href="css/botao.css">
+    <link rel="stylesheet" href="css/total.css">
+    <link rel="stylesheet" href="css/lista.css">
+    <title>Sistema de Registros</title>
+</head>
+<body>
+    <main class="container">
+        <div class="container-formulario">
+            <form class="formulario" action="">
+                <h1 class="titulo-principal">SDR</h1>
+
+                <label  for="produtos" class="label-textos">Produtos:</label>
+                <input type="text" name="produtos" id="produtos" data-input-produto required>
+
+                <label for="credito" class="label-textos">Valor Crédito:</label>
+                <input type="text" name="credito" id="credito" class="input-texto" placeholder="R$"  data-input-credito>
+
+                <label for="debito" class="label-textos">Valor Débito:</label>
+                <input type="text" name="debito" id="debito" class="input-texto" placeholder="R$"  data-input-debito>
+
+                <label for="dinheiro" class="label-textos">Valor Dinheiro:</label>
+                <input type="text" name="dinheiro" id="dinheiro" class="input-texto" placeholder="R$" data-input-dinheiro>
+
+                <button class="botao" data-button>Novo item </button>
+            </form>
+            <ul class="lista" data-lista>
+
+            </ul>
+
+            <p class="total" data-total>Total:</p>
+        </div>
+    </main>
+    <script src="lista-Tarefas.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color:teal;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+.container-formulario {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.178);
+    box-shadow: 0px 0 10px 1px rgba(0, 0, 0, 0.184);
+    -webkit-backdrop-filter: blur(15px);
+    min-height: 250px;
+    padding: 30px;
+    min-width: 90%;
+    border-radius: 10px;
+
+}
+
